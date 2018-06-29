@@ -10,11 +10,15 @@ img {
   width: 100%;
 }
 
+section {
+  height: 100vh;
+  overflow: hidden;
+}
+
 #top {
   background-color: #B55956;
   z-index: 20;
   color: white;
-  height: 778px;
 }
 
 .profile {
@@ -31,11 +35,14 @@ img {
 
 #about-me {
   background-color: #F6F8FA;
-  height: 778px;
 }
 
 #project_cards {
-  height: 778px;
   background-color: #606060;
-  color: white;
+}
+
+.section-nav {
+  position: absolute;
+  bottom: 0;
+  right: 2%;
 }
