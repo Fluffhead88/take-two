@@ -9,3 +9,33 @@ body {
 img {
   width: 100%;
 }
+
+#top {
+  background-color: #B55956;
+  z-index: 20;
+  color: white;
+  height: 778px;
+}
+
+.profile {
+  z-index: 1;
+  opacity: .6;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  bottom: 20px;
+  z-index: 3;
+}
+
+#about-me {
+  background-color: #F6F8FA;
+  height: 778px;
+}
+
+#project_cards {
+  height: 778px;
+  background-color: #606060;
+  color: white;
+}
