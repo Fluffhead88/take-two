@@ -58,8 +58,10 @@ section {
 /* text styling */
 
 #about-me .col-6 {
-  margin-top: 5%;
+  margin-top: 8%;
   padding: 20pt;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
 }
 
 /* arrow takes you from middle to top page */
