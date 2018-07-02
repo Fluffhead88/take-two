@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Helvetica, arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -17,32 +17,133 @@ section {
 
 #top {
   background-color: #B55956;
-  z-index: 20;
+  z-index: 3;
   color: white;
 }
 
 .profile {
   z-index: 1;
-  opacity: .6;
+  opacity: .4;
   position: relative;
 }
 
 .content {
   position: absolute;
-  bottom: 20px;
+  bottom: 13%;
+  left: 4%;
   z-index: 3;
+}
+
+.section1-nav-down {
+  position: absolute;
+  bottom: 0;
+  right: 4%;
+  z-index: 3;
+  color: white;
+  font-size: 18pt;
 }
 
 #about-me {
   background-color: #F6F8FA;
 }
 
-#project_cards {
-  background-color: #606060;
+#about-me .col-6 {
+  margin-top: 5%;
+  padding: 20pt;
 }
 
-.section-nav {
+.section2-nav-up {
   position: absolute;
-  bottom: 0;
-  right: 2%;
+  bottom: -5%;
+  right: 4%;
+  z-index: 3;
+  color: black;
+  font-size: 18pt;
+}
+
+.section2-nav-down {
+  position: absolute;
+  bottom: -100%;
+  right: 4%;
+  z-index: 3;
+  color: black;
+  font-size: 18pt;
+}
+
+#project_cards {
+  background-color: #B55956;
+}
+
+#project_cards article {
+  padding: 10pt;
+  border: solid black;
+  background: #F6F8FA;
+  margin-top: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 9%;
+}
+
+#project_cards article:hover {
+  transform: rotateY(180deg);
+  transition: 1s;
+}
+
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  backface-visibility: hidden;
+}
+
+.section3-nav-up {
+  position: absolute;
+  bottom: -105%;
+  right: 4%;
+  z-index: 3;
+  color: black;
+  font-size: 18pt;
+}
+
+.social_1 {
+  position: absolute;
+  bottom: -78%;
+  right: 7%;
+  z-index: 3;
+  color: black;
+  font-size: 29pt;
+}
+
+.social_2 {
+  position: absolute;
+  bottom: -78%;
+  right: 15%;
+  z-index: 3;
+  color: black;
+  font-size: 29pt;
+}
+
+.social_3 {
+  position: absolute;
+  bottom: -78%;
+  right: 23%;
+  z-index: 3;
+  color: black;
+  font-size: 29pt;
+}
+
+.email {
+  position: absolute;
+  bottom: -78%;
+  right: 31%;
+  z-index: 3;
+  color: black;
+  font-size: 29pt;
 }
