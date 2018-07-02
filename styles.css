@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* font from google fonts */
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -15,11 +17,15 @@ section {
   overflow: hidden;
 }
 
+/* background color to overlay the main picture */
+
 #top {
   background-color: #B55956;
   z-index: 3;
   color: white;
 }
+
+/* shows the background color through the image */
 
 .profile {
   z-index: 1;
@@ -34,6 +40,8 @@ section {
   z-index: 3;
 }
 
+/* arrow to move you from top to middle of page  */
+
 .section1-nav-down {
   position: absolute;
   bottom: 0;
@@ -47,10 +55,16 @@ section {
   background-color: #F6F8FA;
 }
 
+/* text styling */
+
 #about-me .col-6 {
-  margin-top: 5%;
+  margin-top: 8%;
   padding: 20pt;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
 }
+
+/* arrow takes you from middle to top page */
 
 .section2-nav-up {
   position: absolute;
@@ -60,6 +74,8 @@ section {
   color: black;
   font-size: 18pt;
 }
+
+/* arrow takes you from middle page to bottom  */
 
 .section2-nav-down {
   position: absolute;
@@ -74,6 +90,8 @@ section {
   background-color: #B55956;
 }
 
+/* card styling */
+
 #project_cards article {
   padding: 10pt;
   border: solid black;
@@ -84,23 +102,33 @@ section {
   padding: 9%;
 }
 
+/* flips over card on hover */
+
 #project_cards article:hover {
   transform: rotateY(180deg);
   transition: 1s;
 }
+
+/* keeps the text visible */
 
 .front {
   z-index: 2;
   transform: rotateY(0deg);
 }
 
+/* rotates the text on the card */
+
 .back {
   transform: rotateY(180deg);
 }
 
+/* hides the text when it's flipped over */
+
 .front, .back {
   backface-visibility: hidden;
 }
+
+/* arrow from bottom to middle section */
 
 .section3-nav-up {
   position: absolute;
@@ -110,6 +138,8 @@ section {
   color: black;
   font-size: 18pt;
 }
+
+/* positioning for social icon links */
 
 .social_1 {
   position: absolute;
